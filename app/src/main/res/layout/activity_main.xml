@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_columnWeight="1"
+            android:background="#90CAF9"
+            android:text="Button"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_columnWeight="1"
+            android:background="#D3EF9A9A"
+            android:text="Toast"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_columnWeight="1"
+            android:background="#E6EE9C"
+            android:text="Custom Toast"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_columnWeight="1"
+            android:background="#FFE082"
+            android:text="Toggle Button"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_columnWeight="1"
+            android:background="#CE93D8"
+            android:text="CheckBox"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_columnWeight="1"
+            android:background="#9FDAA5"
+            android:text="C. CheckBox"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_columnWeight="1"
+            android:background="#B39DDB"
+            android:text="Radio Button "
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_row="0"
+            android:layout_columnWeight="1"
+            android:autoText="false"
+            android:background="#E9EE9C"
+            android:freezesText="false"
+            android:text="D. Radio Button"
+            android:textAlignment="inherit"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="12sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_columnWeight="1"
+            android:background="#FFAB91"
+            android:text="C. Radio Button"
+            android:textSize="12sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_row="0"
+            android:layout_columnWeight="1"
+            android:background="#FFECB3"
+            android:text="Alert Dialog "
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_columnWeight="1"
+            android:background="#9A90AAEB"
+            android:text="Spinner"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_columnWeight="1"
+            android:background="#FFE082"
+            android:text="Auto Complete Txt"
+            android:textSize="12sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#E1BEE7"
+            android:text="List View "
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#C8FAC9"
+            android:text="C. List View "
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#FFCCBC"
+            android:text="Recycler View"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#B2DFDB"
+            android:text="Rating Bar"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#FFECB3"
+            android:text="Web View"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#C5CAE9"
+            android:text="Seek Bar"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#FFCDD2"
+            android:text="Date Picker"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#E1BEE7"
+            android:text="Time Picker"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#F0F4C3"
+            android:text="Analog N Digital"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#FFFDE7"
+            android:text="Progress Bar"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#FCE4EC"
+            android:text="V. ScrollView "
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#E1F5FE"
+            android:text="H. ScrollView"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#EDE7F6"
+            android:text="Image Switcher"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#FFF3E0"
+            android:text="Image Slider"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button27"
+            style="@android:style/Widget.Material.Button.Borderless"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#F1F8E9"
+            android:text="View Stub "
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#FCE1B3"
+            android:text="Tab Layout"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#DCEDC8"
+            android:text="Tab Layout W/Frame L."
+            android:textSize="11sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#BFB5ECE6"
+            android:text="Search View"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#FFF9C4"
+            android:text="Toolbar Search View"
+            android:textSize="10sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#FFCCBC"
+            android:text="EditTxt w/TxtWatcher"
+            android:textSize="10sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#D1C4E9"
+            android:text="permissions"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button34"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#E1BEE7"
+            android:text="form"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button35"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#8A90CAF9"
+            android:text="Launch Activity"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button36"
+            android:layout_width="106dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:background="#FFE0B2"
+            android:text="Intent"
+            android:textSize="14sp"
+            android:visibility="visible" />
+    </GridLayout>
+</ScrollView>
